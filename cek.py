@@ -28,7 +28,7 @@ try:
         import npyscreen
 except ImportError:
         os.system('clear')
-        prints(Panel(f"""{H2}• {P2}Modul Requests Proses {H2}•""",width=55,padding=(0,15),style=f"{color_panel}")
+        prints(Panel(f"""{H2}• {P2}Modul npyscreen Proses {H2}•""",width=55,padding=(0,15),style=f"{color_panel}")
         os.system('pip install npyscreen')
 try:
         import rich
