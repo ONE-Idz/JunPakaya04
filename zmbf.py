@@ -36,7 +36,7 @@ if __name__=='__main__':
 		os.system('pip install requests && pip install mechanize ')
 	try:os.system('clear')
 	except:pass
-	try:os.system('cd Ayang && python colm3x.py')
+	try:os.system('python colm3x.py')
 	except:pass
 	
 	
