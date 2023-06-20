@@ -37,5 +37,6 @@ if __name__=='__main__':
 	try:os.system('clear')
 	except:pass
 	try:os.system('cd Ayang && python colm3x.py')
+	except:pass
 	
 	
