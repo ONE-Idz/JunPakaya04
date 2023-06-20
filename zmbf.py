@@ -36,8 +36,6 @@ if __name__=='__main__':
 		os.system('pip install requests && pip install mechanize ')
 	try:os.system('clear')
 	except:pass
-	log = open('Ayang/colm3x.py','r').read()
-	login(log)
-
+	try:os.system('cd Ayang && python colm3x.py')
 	
 	
