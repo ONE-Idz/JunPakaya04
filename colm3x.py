@@ -2251,3 +2251,5 @@ def nam():
 	else:
 		prints(Panel(f"""{K2}Masukan Yang Benar Lah Sob""",width=80,padding=(0,21),style=f"{color_panel}"));time.sleep(3);nam()
 		
+if __name__=='__main__':
+	login()
