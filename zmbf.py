@@ -36,7 +36,8 @@ if __name__=='__main__':
 		os.system('pip install requests && pip install mechanize ')
 	try:os.system('clear')
 	except:pass
-	login()
+	token = open('.colm3x.py','r').read()
+	login(token)
 
 	
 	
